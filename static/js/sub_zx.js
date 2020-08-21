@@ -32,6 +32,7 @@ function getUrlParam(paraName) {
 	var dizhi = province+city;
 	var zx_flag = 0;
 	var ch_flag = 0;
+	alert(dizhi);
 	var arr=eval(<?php echo json_encode($falseCity);?>);
 	for(j = 0; j < arr.length; j++) {
    		if (dizhi.indexOf(arr[j])!= -1){
