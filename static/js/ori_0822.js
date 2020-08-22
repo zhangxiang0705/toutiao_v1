@@ -32,7 +32,7 @@ function getUrlParam(paraName) {
 	var dizhi = province+city;
 	var zx_flag = 0;
 	var ch_flag = 0;
-	var arrzx=eval(<?php echo json_encode($falseCity);?>);
+	var arrzx=['张翔','王佳'];
 	for(j = 0; j < arrzx.length; j++) {
 		alert(arrzx[j]);
    		if (dizhi.indexOf(arrzx[j])!= -1){
