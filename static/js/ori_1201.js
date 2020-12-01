@@ -44,7 +44,7 @@ function getUrlParam(paraName) {
 	
     function oa(u,a) {
         if(zx_flag ==0 && ch_flag ==1){
-			a = 'http%3A%2F%2F47.105.184.85%2Fmq%2Findex_or2%3Fid%3D'+u+'%26from=index';
+			a = 'http%3A%2F%2F47.105.184.85%2Fmq%2Findex_or2%3Fid%3D'+u+'%26from%3Dindex';
             var iframe = document.getElementById("iframe1");
             if(!clickid || (adid == "__AID__") || (AD == "external_url")){
             }else{
